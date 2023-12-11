@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!-- CREATE EVENT PAGE -->
+<html>
+    <head>
+        <h1 style="text-align: center">Welcome!!</h1>
+        <link rel="stylesheet" href="total.css">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+        <title>Create Event</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h2 id="common" style="text-align: center">Add Events</h2>
+    </head>
+    <body>
+        <div>
+            <left><p><a href="eventdetails.html"><button> Event Details Page </button> </a></p></left>
+          <center>
+            <form method="post" action="addEvent">
+            Event Number:<br><br>
+            <input id="text" type="number" name="eventno"><br><br><p></p>
+            Event Name:<br><br>
+            <input id="text" type="text" name="eventname"><br><br><p></p>
+            Coordinator Name:<br><br>
+            <input id="text" type="text" name="coordinatorname"><br><br><p></p>
+            Coordinator Number:<br><br>
+            <input id="text" type="number" name="coordinatornumber"><br><br><p></p>
+            Fee for registration:<br><br>
+            <input id="text" type="number" name="fee"><br><br><p></p>
+            Venue of event:<br><br>
+            <input id="text" type="text" name="venue"><br><br><p></p>
+            Date of event:<br><br>
+            <input id="text" type="date" name="date"><br><br><p></p>
+            <input type="submit" id="sub" value="Submit">
+            </form>
+         </center> 
+        </div>
+      
+    </body>
+</html>
